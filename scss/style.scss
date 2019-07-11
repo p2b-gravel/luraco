@@ -449,6 +449,11 @@ h1, h2, h3, h4, h5,
 				@include media-breakpoint-down(md){
 					text-align: center;
 				}
+				.full {
+					width: 100%;
+					position: relative;
+					z-index: -1;
+				}
 				.one-third{
 					width: 50%;
 					position: relative;
@@ -495,6 +500,18 @@ h1, h2, h3, h4, h5,
 						z-index: 1;
 						padding: 1em;
 					}
+					&.abc {
+						width: 60%;
+						@include media-breakpoint-up(md){
+							width: 60%;
+						}
+						.text{
+							@include media-breakpoint-up(lg){
+								max-width: 100%;
+								top: 30%;
+							}
+						}
+					}
 					.text{
 						@include media-breakpoint-up(lg){
 							position: absolute;
@@ -506,6 +523,22 @@ h1, h2, h3, h4, h5,
 							max-width: 50%;
 							padding-left: 45px;
 							padding-right: 3em;
+						}
+					}
+					.text-2{
+						@include media-breakpoint-up(lg){
+							position: absolute;
+							bottom: 2rem;
+							left: 0;
+							// transform: translateY(-50%);
+							right: 0;
+							// width: 1200px;
+							max-width: 50%;
+							padding-left: 45px;
+							padding-right: 3em;
+							h1 {
+								line-height: 1rem
+							}
 						}
 					}
 				}
