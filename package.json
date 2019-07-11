@@ -1,0 +1,30 @@
+{
+  "name": "luraco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p2b-gravel/luraco.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/p2b-gravel/luraco/issues"
+  },
+  "homepage": "https://github.com/p2b-gravel/luraco#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "3.9.1",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0",
+    "sass": "^1.10.1",
+    "gulp-watch": "^5.0.1",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "gulp-babel": "^7.0.1"
+  }
+}
