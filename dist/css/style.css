@@ -9262,7 +9262,7 @@ textarea.form-control {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
   .products-4 .table {
-    background: #fff;
+    background: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
     overflow: hidden; }
     .products-4 .table thead th {
